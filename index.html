@@ -1,569 +1,992 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>IQ KG — образовательный центр в Бишкеке</title>
-<meta name="description" content="IQ KG — образовательный центр в Бишкеке: скорочтение, развитие памяти, подготовка к школе, английский и кыргызский языки. Более 10 лет на рынке.">
-<link rel="icon" href="images/logo.png" type="image/png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>IQ KG — образовательный центр в Бишкеке</title>
+    <meta
+      name="description"
+      content="IQ KG — образовательный центр в Бишкеке: скорочтение, развитие памяти, подготовка к школе, английский и кыргызский языки. Более 10 лет на рынке."
+    />
+    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
 
-<a class="skip-link" href="#main">Перейти к содержимому</a>
+    <!-- ===================== HEADER ===================== -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a
+          href="#top"
+          class="logo"
+          aria-label="Образовательный центр IQ — на главную"
+        >
+          <img src="images/logo.png" alt="Логотип IQ" class="logo-img" />
+          <span class="logo-text">Образовательный центр IQ</span>
+        </a>
 
-<!-- ===================== HEADER ===================== -->
-<header class="site-header" id="top">
-  <div class="container header-inner">
-    <a href="#top" class="logo" aria-label="Образовательный центр IQ — на главную">
-      <img src="images/logo.png" alt="Логотип IQ" class="logo-img">
-      <span class="logo-text">Образовательный центр IQ</span>
-    </a>
-
-    <nav class="nav" id="nav">
-      <ul class="nav-list">
-        <li><a href="#about" class="nav-link">О нас</a></li>
-        <li><a href="#programs" class="nav-link">Направления</a></li>
-        <li><a href="#reviews" class="nav-link">Отзывы</a></li>
-        <li><a href="#branches" class="nav-link">Филиалы</a></li>
-        <li><a href="#contact" class="nav-link">Контакты</a></li>
-      </ul>
-      <a href="https://wa.me/996557784477" target="_blank" rel="noopener" class="btn btn-whatsapp nav-cta">
-        <svg viewBox="0 0 24 24" class="icon-wa" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.4.9.9-3.3-.2-.4C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg>
-        Написать в WhatsApp
-      </a>
-    </nav>
-
-    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
-
-<div class="nav-overlay" id="navOverlay"></div>
-
-<main id="main">
-
-  <!-- ===================== HERO ===================== -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <span class="eyebrow">Образовательный центр в Бишкеке</span>
-        <h1>Учим детей запоминать, читать быстро и уверенно думать</h1>
-        <p class="hero-lead">
-          IQ KG — единственный в Бишкеке центр, который уже более 10 лет
-          занимается скорочтением, развитием памяти и подготовкой детей к школе.
-          Гарантируем результат.
-        </p>
-        <div class="hero-actions">
-          <a href="https://wa.me/996557784477" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
-            Записаться на пробное занятие
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">О нас</a></li>
+            <li><a href="#programs" class="nav-link">Направления</a></li>
+            <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+            <li><a href="#branches" class="nav-link">Филиалы</a></li>
+            <li><a href="#contact" class="nav-link">Контакты</a></li>
+          </ul>
+          <a
+            href="https://wa.me/996557784477"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-whatsapp nav-cta"
+          >
+            <svg viewBox="0 0 24 24" class="icon-wa" aria-hidden="true">
+              <path
+                d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4z"
+              />
+              <path
+                d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.4.9.9-3.3-.2-.4C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"
+              />
+            </svg>
+            Написать в WhatsApp
           </a>
-          <a href="#programs" class="btn btn-ghost btn-lg">Смотреть направления</a>
-        </div>
-        <ul class="hero-stats">
-          <li><strong>10+</strong><span>лет на рынке</span></li>
-          <li><strong>4</strong><span>филиала в Бишкеке</span></li>
-          <li><strong>3–4</strong><span>ребёнка в группе</span></li>
-        </ul>
+        </nav>
+
+        <button
+          class="burger"
+          id="burger"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          <span></span><span></span><span></span>
+        </button>
       </div>
+    </header>
 
-      <div class="hero-art" aria-hidden="true">
-        <svg viewBox="0 0 400 400" class="hero-svg">
-          <circle cx="200" cy="200" r="170" fill="#DCE8F0"/>
-          <circle cx="200" cy="200" r="130" fill="#C7DAE6"/>
-          <g transform="translate(90,120)">
-            <rect x="0" y="60" width="220" height="140" rx="18" fill="#fff"/>
-            <rect x="0" y="60" width="220" height="140" rx="18" fill="none" stroke="#3E6E93" stroke-width="6"/>
-            <path d="M0 90 L110 60 L220 90" fill="none" stroke="#3E6E93" stroke-width="6" stroke-linejoin="round"/>
-            <rect x="20" y="100" width="80" height="14" rx="7" fill="#BBCAD1"/>
-            <rect x="20" y="126" width="120" height="14" rx="7" fill="#BBCAD1"/>
-            <rect x="20" y="152" width="60" height="14" rx="7" fill="#BBCAD1"/>
-            <circle cx="180" cy="140" r="26" fill="#3E6E93"/>
-            <path d="M170 140 l7 7 15 -15" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          </g>
-          <g transform="translate(60,40)">
-            <circle cx="0" cy="0" r="18" fill="#F8B13D"/>
-            <path d="M-6 0 l4 4 8 -9" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          </g>
-          <g transform="translate(340,300)">
-            <circle cx="0" cy="0" r="22" fill="#122545"/>
-            <path d="M-7 0 l5 5 10 -11" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          </g>
-        </svg>
-      </div>
-    </div>
-  </section>
+    <div class="nav-overlay" id="navOverlay"></div>
 
-  <!-- ===================== О НАС ===================== -->
-  <section class="section" id="about">
-    <div class="container">
-      <span class="section-eyebrow">О нас</span>
-      <h2 class="section-title">Мы развиваем память, чтобы учиться было легко</h2>
-      <p class="section-lead">
-        Мы — образовательный центр IQ KG, единственный в Бишкеке, который так долго
-        занимается скорочтением, развитием памяти и подготовкой детей к школе.
-        Наша цель — обеспечить детей навыками, которые помогут им стать успешными
-        и уверенными в себе.
-      </p>
+    <main id="main">
+      <!-- ===================== HERO ===================== -->
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <span class="eyebrow">Образовательный центр в Бишкеке</span>
+            <h1>Учим детей запоминать, читать быстро и уверенно думать</h1>
+            <p class="hero-lead">
+              IQ KG - единственный в Бишкеке центр, который уже более 10 лет
+              занимается скорочтением, развитием памяти и подготовкой детей к
+              школе. Гарантируем результат.
+            </p>
+            <div class="hero-actions">
+              <a
+                href="https://wa.me/996557784477"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-primary btn-lg"
+              >
+                Записаться на пробное занятие
+              </a>
+              <a href="#programs" class="btn btn-ghost btn-lg"
+                >Смотреть направления</a
+              >
+            </div>
+            <ul class="hero-stats">
+              <li><strong>10+</strong><span>лет на рынке</span></li>
+              <li><strong>4</strong><span>филиала в Бишкеке</span></li>
+              <li><strong>3–4</strong><span>ребёнка в группе</span></li>
+            </ul>
+          </div>
 
-      <div class="badges-row">
-        <div class="badge-card">
-          <span class="badge-icon">🏆</span>
-          <div>
-            <strong>Более 10 лет на рынке</strong>
-            <p>Опыт, которому доверяют родители Бишкека</p>
+          <div class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 400 400" class="hero-svg">
+              <circle cx="200" cy="200" r="170" fill="#DCE8F0" />
+              <circle cx="200" cy="200" r="130" fill="#C7DAE6" />
+              <g transform="translate(90,120)">
+                <rect
+                  x="0"
+                  y="60"
+                  width="220"
+                  height="140"
+                  rx="18"
+                  fill="#fff"
+                />
+                <rect
+                  x="0"
+                  y="60"
+                  width="220"
+                  height="140"
+                  rx="18"
+                  fill="none"
+                  stroke="#3E6E93"
+                  stroke-width="6"
+                />
+                <path
+                  d="M0 90 L110 60 L220 90"
+                  fill="none"
+                  stroke="#3E6E93"
+                  stroke-width="6"
+                  stroke-linejoin="round"
+                />
+                <rect
+                  x="20"
+                  y="100"
+                  width="80"
+                  height="14"
+                  rx="7"
+                  fill="#BBCAD1"
+                />
+                <rect
+                  x="20"
+                  y="126"
+                  width="120"
+                  height="14"
+                  rx="7"
+                  fill="#BBCAD1"
+                />
+                <rect
+                  x="20"
+                  y="152"
+                  width="60"
+                  height="14"
+                  rx="7"
+                  fill="#BBCAD1"
+                />
+                <circle cx="180" cy="140" r="26" fill="#3E6E93" />
+                <path
+                  d="M170 140 l7 7 15 -15"
+                  stroke="white"
+                  stroke-width="5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <g transform="translate(60,40)">
+                <circle cx="0" cy="0" r="18" fill="#F8B13D" />
+                <path
+                  d="M-6 0 l4 4 8 -9"
+                  stroke="white"
+                  stroke-width="4"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <g transform="translate(340,300)">
+                <circle cx="0" cy="0" r="22" fill="#122545" />
+                <path
+                  d="M-7 0 l5 5 10 -11"
+                  stroke="white"
+                  stroke-width="4"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+            </svg>
           </div>
         </div>
-        <div class="badge-card">
-          <span class="badge-icon">✅</span>
-          <div>
-            <strong>Гарантируем результат</strong>
-            <p>Понятная система обучения и контроль прогресса</p>
-          </div>
-        </div>
-        <div class="badge-card">
-          <span class="badge-icon">🕘</span>
-          <div>
-            <strong>Работаем каждый день</strong>
-            <p>С 09:00 до 19:00, без выходных</p>
-          </div>
-        </div>
-        <div class="badge-card">
-          <span class="badge-icon">👩‍🏫</span>
-          <div>
-            <strong>Педагог + тьютор в группе</strong>
-            <p>До 3–4 детей — внимание каждому ребёнку</p>
-          </div>
-        </div>
-      </div>
+      </section>
 
-      <div class="videos-block">
-        <h3>Как проходят занятия</h3>
-        <p class="videos-lead">Загляните на наши уроки изнутри — короткие видео с занятий и жизни центра.</p>
+      <!-- ===================== О НАС ===================== -->
+      <section class="section" id="about">
+        <div class="container">
+          <span class="section-eyebrow">О нас</span>
+          <h2 class="section-title">
+            Мы развиваем память, чтобы учиться было легко
+          </h2>
+          <p class="section-lead">
+            Мы — образовательный центр IQ KG, единственный в Бишкеке, который
+            так долго занимается скорочтением, развитием памяти и подготовкой
+            детей к школе. Наша цель — обеспечить детей навыками, которые
+            помогут им стать успешными и уверенными в себе.
+          </p>
 
-        <div class="videos-track" id="videosTrack">
-          <div class="video-card">
-            <video src="video/lesson-1.mp4" poster="images/video-poster-1.jpg" controls playsinline preload="metadata"></video>
-            <span class="video-caption">Занятие по быстрочтению</span>
+          <div class="badges-row">
+            <div class="badge-card">
+              <span class="badge-icon">🏆</span>
+              <div>
+                <strong>Более 10 лет на рынке</strong>
+                <p>Опыт, которому доверяют родители Бишкека</p>
+              </div>
+            </div>
+            <div class="badge-card">
+              <span class="badge-icon">✅</span>
+              <div>
+                <strong>Гарантируем результат</strong>
+                <p>Понятная система обучения и контроль прогресса</p>
+              </div>
+            </div>
+            <div class="badge-card">
+              <span class="badge-icon">🕘</span>
+              <div>
+                <strong>Работаем каждый день</strong>
+                <p>С 09:00 до 19:00, без выходных</p>
+              </div>
+            </div>
+            <div class="badge-card">
+              <span class="badge-icon">👩‍🏫</span>
+              <div>
+                <strong>Педагог + тьютор в группе</strong>
+                <p>До 3–4 детей — внимание каждому ребёнку</p>
+              </div>
+            </div>
           </div>
-          <div class="video-card">
-            <video src="video/lesson-2.mp4" poster="images/video-poster-2.jpg" controls playsinline preload="metadata"></video>
-            <span class="video-caption">Развитие памяти в группе</span>
-          </div>
-          <div class="video-card">
-            <video src="video/lesson-3.mp4" poster="images/video-poster-3.jpg" controls playsinline preload="metadata"></video>
-            <span class="video-caption">Подготовка к школе</span>
-          </div>
-          <div class="video-card">
-            <video src="video/lesson-4.mp4" poster="images/video-poster-4.jpg" controls playsinline preload="metadata"></video>
-            <span class="video-caption">Раннее развитие: занятие для малышей</span>
-          </div>
-          <div class="video-card">
-            <video src="video/lesson-5.mp4" poster="images/video-poster-5.jpg" controls playsinline preload="metadata"></video>
-            <span class="video-caption">Урок английского языка</span>
-          </div>
-          <div class="video-card">
-            <video src="video/lesson-6.mp4" poster="images/video-poster-6.jpg" controls playsinline preload="metadata"></video>
-            <span class="video-caption">Педагоги и тьюторы центра</span>
-          </div>
-          <div class="video-card">
-            <video src="video/lesson-7.mp4" poster="images/video-poster-7.jpg" controls playsinline preload="metadata"></video>
-            <span class="video-caption">Жизнь центра IQ</span>
-          </div>
-        </div>
 
-        <div class="carousel-dots" id="videosDots"></div>
-      </div>
+          <div class="videos-block">
+            <h3>Как проходят занятия</h3>
+            <p class="videos-lead">
+              Загляните на наши уроки изнутри — короткие видео с занятий и жизни
+              центра.
+            </p>
 
-      <div class="about-grid">
-        <div class="about-format">
-          <h3>Формат занятий</h3>
-          <div class="format-cards">
-            <div class="format-card">
-              <span class="format-tag">Дошкольники</span>
-              <ul>
-                <li>Полная программа — 60 минут</li>
-                <li>Упрощённая программа — 30 минут</li>
-                <li>Группы до 3 детей</li>
+            <div class="videos-track" id="videosTrack">
+              <div class="video-card">
+                <video
+                  src="video/lesson-1.mp4"
+                  poster="images/video-poster-1.jpg"
+                  controls
+                  playsinline
+                  preload="metadata"
+                ></video>
+                <span class="video-caption">Занятие по быстрочтению</span>
+              </div>
+              <div class="video-card">
+                <video
+                  src="video/lesson-2.mp4"
+                  poster="images/video-poster-2.jpg"
+                  controls
+                  playsinline
+                  preload="metadata"
+                ></video>
+                <span class="video-caption">Развитие памяти в группе</span>
+              </div>
+              <div class="video-card">
+                <video
+                  src="video/lesson-3.mp4"
+                  poster="images/video-poster-3.jpg"
+                  controls
+                  playsinline
+                  preload="metadata"
+                ></video>
+                <span class="video-caption">Подготовка к школе</span>
+              </div>
+              <div class="video-card">
+                <video
+                  src="video/lesson-4.mp4"
+                  poster="images/video-poster-4.jpg"
+                  controls
+                  playsinline
+                  preload="metadata"
+                ></video>
+                <span class="video-caption"
+                  >Раннее развитие: занятие для малышей</span
+                >
+              </div>
+              <div class="video-card">
+                <video
+                  src="video/lesson-5.mp4"
+                  poster="images/video-poster-5.jpg"
+                  controls
+                  playsinline
+                  preload="metadata"
+                ></video>
+                <span class="video-caption">Урок английского языка</span>
+              </div>
+              <div class="video-card">
+                <video
+                  src="video/lesson-6.mp4"
+                  poster="images/video-poster-6.jpg"
+                  controls
+                  playsinline
+                  preload="metadata"
+                ></video>
+                <span class="video-caption">Педагоги и тьюторы центра</span>
+              </div>
+              <div class="video-card">
+                <video
+                  src="video/lesson-7.mp4"
+                  poster="images/video-poster-7.jpg"
+                  controls
+                  playsinline
+                  preload="metadata"
+                ></video>
+                <span class="video-caption">Жизнь центра IQ</span>
+              </div>
+            </div>
+
+            <div class="carousel-dots" id="videosDots"></div>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-format">
+              <h3>Формат занятий</h3>
+              <div class="format-cards">
+                <div class="format-card">
+                  <span class="format-tag">Дошкольники</span>
+                  <ul>
+                    <li>Полная программа — 60 минут</li>
+                    <li>Упрощённая программа — 30 минут</li>
+                    <li>Группы до 3 детей</li>
+                  </ul>
+                </div>
+                <div class="format-card">
+                  <span class="format-tag">Школьники</span>
+                  <ul>
+                    <li>Полная программа — 1 час 20 минут</li>
+                    <li>Развитие памяти — 40 минут</li>
+                    <li>Группы до 4 детей</li>
+                  </ul>
+                </div>
+              </div>
+              <p class="format-note">
+                Стандартное расписание — 2 занятия в неделю. Английский и
+                кыргызский языки с нуля — 3 занятия в неделю (курс из 12
+                занятий).
+              </p>
+            </div>
+
+            <div class="about-skills">
+              <h3>Что входит в программу</h3>
+              <p class="skills-lead">
+                Основа продукта во всех направлениях — развитие памяти:
+              </p>
+              <ul class="skills-list" id="skillsList">
+                <li>
+                  <span class="skill-num">1</span>
+                  <div>
+                    <strong>Зрительная память</strong>
+                    <p>
+                      Упражнения с карточками и картинками для быстрого
+                      восприятия и запоминания визуальной информации
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">2</span>
+                  <div>
+                    <strong>Логическая память</strong>
+                    <p>
+                      Структурирование информации, последовательное запоминание
+                      и упрощение сложных данных
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">3</span>
+                  <div>
+                    <strong>Индуктивность</strong>
+                    <p>
+                      Умение быстро находить логическое решение и пересказывать
+                      с чёткой последовательностью
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">4</span>
+                  <div>
+                    <strong>Наглядно-образная память</strong>
+                    <p>
+                      Помогает лучше изучать языки и увеличивать скорость чтения
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">5</span>
+                  <div>
+                    <strong>Эмоциональный интеллект</strong>
+                    <p>
+                      Умение понимать и управлять своими эмоциями для лучшего
+                      восприятия информации
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">6</span>
+                  <div>
+                    <strong>Пространственное воображение</strong>
+                    <p>
+                      Представление объектов и их расположения, развитие
+                      образного мышления
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">7</span>
+                  <div>
+                    <strong>Вариативность мышления</strong>
+                    <p>Способность находить разные решения одной задачи</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">8</span>
+                  <div>
+                    <strong>Точность восприятия</strong>
+                    <p>Игровые упражнения на внимание к деталям</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">9</span>
+                  <div>
+                    <strong>Концентрация внимания</strong>
+                    <p>
+                      Задания на сосредоточенность и удержание внимания на
+                      задаче
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span class="skill-num">10</span>
+                  <div>
+                    <strong>Быстрый поиск информации</strong>
+                    <p>
+                      Умение быстро находить ключевую информацию в тексте и
+                      других источниках
+                    </p>
+                  </div>
+                </li>
               </ul>
             </div>
-            <div class="format-card">
-              <span class="format-tag">Школьники</span>
-              <ul>
-                <li>Полная программа — 1 час 20 минут</li>
-                <li>Развитие памяти — 40 минут</li>
-                <li>Группы до 4 детей</li>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== НАПРАВЛЕНИЯ ===================== -->
+      <section class="section section-alt" id="programs">
+        <div class="container">
+          <span class="section-eyebrow">Направления</span>
+          <h2 class="section-title">Выберите программу для вашего ребёнка</h2>
+          <p class="section-lead">
+            Во всех направлениях — развитие логики и концентрации внимания. Цена
+            указана за 8 уроков по стандартному расписанию (2 занятия в неделю).
+          </p>
+
+          <div class="programs-grid">
+            <article class="program-card">
+              <div class="program-icon">🧸</div>
+              <h3>Раннее развитие</h3>
+              <p class="program-age">от 3 до 5 лет</p>
+              <ul class="program-meta">
+                <li>⏱ 1 час</li>
+                <li>💳 8 000 сом / 8 занятий</li>
               </ul>
-            </div>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Мягкое погружение в обучение через игру: карточки, картинки и
+                  простые задания развивают у малыша внимание, зрительную память
+                  и первые навыки логического мышления.
+                </p>
+                <p>
+                  Занятия проходят в маленькой группе — до 3 детей, педагог и
+                  тьютор помогают каждому ребёнку не потеряться и с
+                  удовольствием включиться в процесс.
+                </p>
+              </template>
+            </article>
+
+            <article class="program-card">
+              <div class="program-icon">🧠</div>
+              <h3>Подготовка к школе / развитие памяти</h3>
+              <p class="program-age">от 5 до 7 лет</p>
+              <ul class="program-meta">
+                <li>⏱ 30 минут</li>
+                <li>💳 6 500 сом / 8 занятий</li>
+              </ul>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Сокращённый формат подготовки к школе для тех, кому нужен
+                  более лёгкий график: за 30 минут ребёнок прорабатывает
+                  ключевые упражнения на память и внимание.
+                </p>
+                <p>
+                  Подходит как самостоятельная программа или как дополнение к
+                  другим занятиям ребёнка — без перегрузки, но с заметным
+                  результатом.
+                </p>
+              </template>
+            </article>
+            <article class="program-card">
+              <div class="program-icon">🎒</div>
+              <h3>Подготовка к школе</h3>
+              <p class="program-age">от 5 до 7 лет</p>
+              <ul class="program-meta">
+                <li>⏱ 1 час</li>
+                <li>💳 9 700 сом / 8 занятий</li>
+              </ul>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Полноценная программа для будущих первоклассников: развиваем
+                  память, логику, речь и мелкую моторику, учим ребёнка
+                  концентрироваться на задаче и доводить её до конца.
+                </p>
+                <p>
+                  К концу курса ребёнок увереннее читает, считает и легче
+                  воспринимает новую информацию — а главное, идёт в школу без
+                  страха и с интересом к учёбе.
+                </p>
+              </template>
+            </article>
+
+            <article class="program-card featured">
+              <div class="program-icon">📚</div>
+              <h3>Быстрочтение / Развитие памяти</h3>
+              <p class="program-age">от 7 лет и выше</p>
+              <ul class="program-meta">
+                <li>⏱ 1 час 20 минут</li>
+                <li>💳 10 300 сом / 8 занятий</li>
+              </ul>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Флагманская программа центра: учим ребёнка читать быстрее без
+                  потери понимания текста, развиваем зрительную и логическую
+                  память, концентрацию внимания.
+                </p>
+                <p>
+                  Упражнения построены так, чтобы навык закреплялся не только на
+                  бумаге, но и в повседневном чтении — учебников, книг, любых
+                  текстов.
+                </p>
+              </template>
+            </article>
+
+            <article class="program-card">
+              <div class="program-icon">📖</div>
+              <h3>Быстрочтение</h3>
+              <p class="program-age">от 7 лет и выше</p>
+              <ul class="program-meta">
+                <li>⏱ 40 минут</li>
+                <li>💳 8 500 сом / 8 занятий</li>
+              </ul>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Компактный формат программы «Быстрочтение» — 40 минут вместо 1
+                  часа 20, для детей с плотным графиком или как второе
+                  направление в неделю.
+                </p>
+                <p>
+                  Сохраняет ключевые упражнения на скорость чтения и развитие
+                  памяти в более коротком, но насыщенном занятии.
+                </p>
+              </template>
+            </article>
+
+            <article class="program-card">
+              <div class="program-icon">⚡</div>
+              <h3>Развитие памяти</h3>
+              <p class="program-age">от 14 лет и выше · от 180 слов/мин</p>
+              <ul class="program-meta">
+                <li>⏱ 40 минут</li>
+                <li>💳 8 500 сом / 8 занятий</li>
+              </ul>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Программа для подростков, которые уже читают от 180 слов в
+                  минуту и хотят выйти на новый уровень — работать с большими
+                  объёмами текста быстро и осознанно.
+                </p>
+                <p>
+                  Отрабатываем техники сканирования текста, удержания внимания
+                  на длинных материалах и структурирования прочитанного —
+                  полезно для учёбы и экзаменов.
+                </p>
+              </template>
+            </article>
+
+            <article class="program-card">
+              <div class="program-icon">⚡</div>
+              <h3>Скорочтение</h3>
+              <p class="program-age">от 14 лет и выше · от 180 слов/мин</p>
+              <ul class="program-meta">
+                <li>⏱ 1 час 20 минут</li>
+                <li>💳 9 000 сом / 8 занятий</li>
+              </ul>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Программа для подростков, которые уже читают от 180 слов в
+                  минуту и хотят выйти на новый уровень — работать с большими
+                  объёмами текста быстро и осознанно.
+                </p>
+                <p>
+                  Отрабатываем техники сканирования текста, удержания внимания
+                  на длинных материалах и структурирования прочитанного —
+                  полезно для учёбы и экзаменов.
+                </p>
+              </template>
+            </article>
+
+            <article class="program-card">
+              <div class="program-icon">🇬🇧</div>
+              <h3>Английский язык с нуля</h3>
+              <p class="program-age">от 7 лет и выше</p>
+              <ul class="program-meta">
+                <li>⏱ 1 час · 3 раза в неделю</li>
+                <li>💳 12 300 сом / 12 занятий</li>
+              </ul>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Курс английского языка с нуля для детей от 7 лет: разговорная
+                  практика, базовая грамматика и лексика в увлекательном
+                  формате, без зубрёжки.
+                </p>
+                <p>
+                  3 занятия в неделю дают более быстрый прогресс, чем
+                  стандартный график — ребёнок быстрее привыкает говорить и
+                  мыслить на языке.
+                </p>
+              </template>
+            </article>
+
+            <article class="program-card">
+              <div class="program-icon">🇰🇬</div>
+              <h3>Кыргызский язык с нуля</h3>
+              <p class="program-age">от 7 лет и выше</p>
+              <ul class="program-meta">
+                <li>⏱ 1 час · 3 раза в неделю</li>
+                <li>💳 12 300 сом / 12 занятий</li>
+              </ul>
+              <button type="button" class="btn btn-ghost btn-sm program-more">
+                Подробнее
+              </button>
+              <template class="program-desc">
+                <p>
+                  Курс кыргызского языка с нуля: живое общение, базовая
+                  грамматика и лексика — всё в понятной и доброжелательной
+                  атмосфере для ребёнка.
+                </p>
+                <p>
+                  3 занятия в неделю помогают быстрее заговорить и уверенно
+                  применять язык в повседневных ситуациях.
+                </p>
+              </template>
+            </article>
           </div>
-          <p class="format-note">
-            Стандартное расписание — 2 занятия в неделю. Английский и кыргызский
-            языки с нуля — 3 занятия в неделю (курс из 12 занятий).
+
+          <div class="programs-cta">
+            <p>Не уверены, какое направление подойдёт вашему ребёнку?</p>
+            <a
+              href="https://wa.me/996557784477"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-primary"
+            >
+              Получить бесплатную консультацию
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== ОТЗЫВЫ ===================== -->
+      <section class="section" id="reviews">
+        <div class="container">
+          <span class="section-eyebrow">Отзывы</span>
+          <h2 class="section-title">Нам доверяют родители Бишкека</h2>
+
+          <div class="reviews-track" id="reviewsTrack">
+            <article class="review-card">
+              <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              <p class="review-text">
+                Сын занимается уже полгода в филиале на Абая — стал гораздо
+                быстрее читать и лучше запоминать материал в школе. Педагоги
+                очень внимательные, всегда на связи.
+              </p>
+              <div class="review-author">
+                <span class="review-avatar">А</span>
+                <div>
+                  <strong>Айгуль</strong>
+                  <span>мама ученика, программа «Быстрочтение»</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              <p class="review-text">
+                Готовили дочку к школе в IQ KG — занятия проходят в игровой
+                форме, ребёнок ходит с удовольствием. Заметен прогресс в
+                концентрации внимания и памяти.
+              </p>
+              <div class="review-author">
+                <span class="review-avatar">Н</span>
+                <div>
+                  <strong>Нурлан</strong>
+                  <span>папа ученицы, программа «Подготовка к школе»</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              <p class="review-text">
+                Маленькие группы — это большой плюс: педагог и тьютор успевают
+                уделить внимание каждому ребёнку. Удобное расположение филиала в
+                12 мкр.
+              </p>
+              <div class="review-author">
+                <span class="review-avatar">Э</span>
+                <div>
+                  <strong>Эльмира</strong>
+                  <span>мама ученика, программа «Раннее развитие»</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="carousel-dots" id="reviewsDots"></div>
+        </div>
+      </section>
+
+      <!-- ===================== ФИЛИАЛЫ ===================== -->
+      <section class="section section-alt" id="branches">
+        <div class="container">
+          <span class="section-eyebrow">Филиалы</span>
+          <h2 class="section-title">4 филиала в удобных районах Бишкека</h2>
+
+          <div class="branches-grid">
+            <a
+              class="branch-card"
+              href="https://go.2gis.com/qb9wy"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="branch-icon">📍</div>
+              <div>
+                <strong>Бизнес центр «Максимум»</strong>
+                <p>р-он Филармонии</p>
+              </div>
+            </a>
+
+            <a
+              class="branch-card"
+              href="https://go.2gis.com/P6yp2"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="branch-icon">📍</div>
+              <div>
+                <strong>Абая 35а</strong>
+                <p>пересечение Горького / Абая</p>
+              </div>
+            </a>
+
+            <a
+              class="branch-card"
+              href="https://go.2gis.com/K0Z29"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="branch-icon">📍</div>
+              <div>
+                <strong>12-й мкр., ТЦ «ДК»</strong>
+                <p>Бишкек</p>
+              </div>
+            </a>
+
+            <a
+              class="branch-card"
+              href="https://go.2gis.com/4VtIX"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="branch-icon">📍</div>
+              <div>
+                <strong>Джал 29, дом 14/1</strong>
+                <p>Бишкек</p>
+              </div>
+            </a>
+
+            <a class="branch-card" href="#" target="_blank" rel="noopener">
+              <div class="branch-icon">📍</div>
+              <div>
+                <strong>г.Нальчик, Кирова 49</strong>
+                <p>Дагестан</p>
+              </div>
+            </a>
+          </div>
+
+          <p class="branches-note">
+            Уточнить точный адрес и записаться в ближайший филиал можно в
+            WhatsApp — подскажем свободное время.
           </p>
         </div>
+      </section>
 
-        <div class="about-skills">
-          <h3>Что входит в программу</h3>
-          <p class="skills-lead">Основа продукта во всех направлениях — развитие памяти:</p>
-          <ul class="skills-list" id="skillsList">
-            <li><span class="skill-num">1</span><div><strong>Зрительная память</strong><p>Упражнения с карточками и картинками для быстрого восприятия и запоминания визуальной информации</p></div></li>
-            <li><span class="skill-num">2</span><div><strong>Логическая память</strong><p>Структурирование информации, последовательное запоминание и упрощение сложных данных</p></div></li>
-            <li><span class="skill-num">3</span><div><strong>Индуктивность</strong><p>Умение быстро находить логическое решение и пересказывать с чёткой последовательностью</p></div></li>
-            <li><span class="skill-num">4</span><div><strong>Наглядно-образная память</strong><p>Помогает лучше изучать языки и увеличивать скорость чтения</p></div></li>
-            <li><span class="skill-num">5</span><div><strong>Эмоциональный интеллект</strong><p>Умение понимать и управлять своими эмоциями для лучшего восприятия информации</p></div></li>
-            <li><span class="skill-num">6</span><div><strong>Пространственное воображение</strong><p>Представление объектов и их расположения, развитие образного мышления</p></div></li>
-            <li><span class="skill-num">7</span><div><strong>Вариативность мышления</strong><p>Способность находить разные решения одной задачи</p></div></li>
-            <li><span class="skill-num">8</span><div><strong>Точность восприятия</strong><p>Игровые упражнения на внимание к деталям</p></div></li>
-            <li><span class="skill-num">9</span><div><strong>Концентрация внимания</strong><p>Задания на сосредоточенность и удержание внимания на задаче</p></div></li>
-            <li><span class="skill-num">10</span><div><strong>Быстрый поиск информации</strong><p>Умение быстро находить ключевую информацию в тексте и других источниках</p></div></li>
+      <!-- ===================== КОНТАКТЫ ===================== -->
+      <section class="section contact-section" id="contact">
+        <div class="container contact-inner">
+          <div>
+            <span class="section-eyebrow section-eyebrow-light">Контакты</span>
+            <h2 class="section-title section-title-light">
+              Запишите ребёнка на пробное занятие
+            </h2>
+            <p class="section-lead section-lead-light">
+              Напишите нам в WhatsApp — ответим на вопросы, поможем выбрать
+              программу и подскажем ближайший филиал.
+            </p>
+            <a
+              href="https://wa.me/996557784477"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-whatsapp btn-lg"
+            >
+              <svg viewBox="0 0 24 24" class="icon-wa" aria-hidden="true">
+                <path
+                  d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4z"
+                />
+                <path
+                  d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.4.9.9-3.3-.2-.4C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"
+                />
+              </svg>
+              wa.me/996557784477
+            </a>
+          </div>
+
+          <ul class="contact-info">
+            <li>
+              <span class="contact-icon">🕘</span>
+              <div>
+                <strong>График работы</strong>
+                <p>Каждый день с 09:00 до 19:00</p>
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon">🏢</span>
+              <div>
+                <strong>Филиалы</strong>
+                <p>4 филиала по всему Бишкеку</p>
+                <p>1 филиал в Дагестане</p>
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon">👨‍👩‍👧</span>
+              <div>
+                <strong>Группы</strong>
+                <p>До 3–4 детей, педагог + тьютор</p>
+              </div>
+            </li>
           </ul>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+    </main>
 
-  <!-- ===================== НАПРАВЛЕНИЯ ===================== -->
-  <section class="section section-alt" id="programs">
-    <div class="container">
-      <span class="section-eyebrow">Направления</span>
-      <h2 class="section-title">Выберите программу для вашего ребёнка</h2>
-      <p class="section-lead">
-        Во всех направлениях — развитие логики и концентрации внимания.
-        Цена указана за 8 уроков по стандартному расписанию (2 занятия в неделю).
-      </p>
-
-      <div class="programs-grid">
-
-        <article class="program-card">
-          <div class="program-icon">🧸</div>
-          <h3>Раннее развитие</h3>
-          <p class="program-age">от 3 до 5 лет</p>
-          <ul class="program-meta">
-            <li>⏱ 1 час</li>
-            <li>💳 8 000 сом / 8 занятий</li>
-          </ul>
-          <button type="button" class="btn btn-ghost btn-sm program-more">Подробнее</button>
-          <template class="program-desc">
-            <p>Мягкое погружение в обучение через игру: карточки, картинки и простые задания
-            развивают у малыша внимание, зрительную память и первые навыки логического мышления.</p>
-            <p>Занятия проходят в маленькой группе — до 3 детей, педагог и тьютор помогают
-            каждому ребёнку не потеряться и с удовольствием включиться в процесс.</p>
-          </template>
-        </article>
-
-        <article class="program-card">
-          <div class="program-icon">🎒</div>
-          <h3>Подготовка к школе</h3>
-          <p class="program-age">от 5 до 7 лет</p>
-          <ul class="program-meta">
-            <li>⏱ 1 час</li>
-            <li>💳 11 700 сом / 8 занятий</li>
-          </ul>
-          <button type="button" class="btn btn-ghost btn-sm program-more">Подробнее</button>
-          <template class="program-desc">
-            <p>Полноценная программа для будущих первоклассников: развиваем память, логику,
-            речь и мелкую моторику, учим ребёнка концентрироваться на задаче и доводить её до конца.</p>
-            <p>К концу курса ребёнок увереннее читает, считает и легче воспринимает новую
-            информацию — а главное, идёт в школу без страха и с интересом к учёбе.</p>
-          </template>
-        </article>
-
-        <article class="program-card">
-          <div class="program-icon">🧠</div>
-          <h3>Подготовка к школе / развитие памяти</h3>
-          <p class="program-age">от 5 до 7 лет</p>
-          <ul class="program-meta">
-            <li>⏱ 30 минут</li>
-            <li>💳 9 200 сом / 8 занятий</li>
-          </ul>
-          <button type="button" class="btn btn-ghost btn-sm program-more">Подробнее</button>
-          <template class="program-desc">
-            <p>Сокращённый формат подготовки к школе для тех, кому нужен более лёгкий график:
-            за 30 минут ребёнок прорабатывает ключевые упражнения на память и внимание.</p>
-            <p>Подходит как самостоятельная программа или как дополнение к другим занятиям
-            ребёнка — без перегрузки, но с заметным результатом.</p>
-          </template>
-        </article>
-
-        <article class="program-card featured">
-          <div class="program-icon">📚</div>
-          <h3>Быстрочтение</h3>
-          <p class="program-age">от 7 лет и выше</p>
-          <ul class="program-meta">
-            <li>⏱ 1 час 20 минут</li>
-            <li>💳 12 300 сом / 8 занятий</li>
-          </ul>
-          <button type="button" class="btn btn-ghost btn-sm program-more">Подробнее</button>
-          <template class="program-desc">
-            <p>Флагманская программа центра: учим ребёнка читать быстрее без потери понимания
-            текста, развиваем зрительную и логическую память, концентрацию внимания.</p>
-            <p>Упражнения построены так, чтобы навык закреплялся не только на бумаге, но и
-            в повседневном чтении — учебников, книг, любых текстов.</p>
-          </template>
-        </article>
-
-        <article class="program-card">
-          <div class="program-icon">📖</div>
-          <h3>Быстрочтение / развитие памяти</h3>
-          <p class="program-age">от 7 лет и выше</p>
-          <ul class="program-meta">
-            <li>⏱ 40 минут</li>
-            <li>💳 9 800 сом / 8 занятий</li>
-          </ul>
-          <button type="button" class="btn btn-ghost btn-sm program-more">Подробнее</button>
-          <template class="program-desc">
-            <p>Компактный формат программы «Быстрочтение» — 40 минут вместо 1 часа 20,
-            для детей с плотным графиком или как второе направление в неделю.</p>
-            <p>Сохраняет ключевые упражнения на скорость чтения и развитие памяти в более
-            коротком, но насыщенном занятии.</p>
-          </template>
-        </article>
-
-        <article class="program-card">
-          <div class="program-icon">⚡</div>
-          <h3>Скорочтение</h3>
-          <p class="program-age">от 14 лет и выше · от 180 слов/мин</p>
-          <ul class="program-meta">
-            <li>⏱ 1 час 20 минут</li>
-            <li>💳 8 000 сом / 8 занятий</li>
-          </ul>
-          <button type="button" class="btn btn-ghost btn-sm program-more">Подробнее</button>
-          <template class="program-desc">
-            <p>Программа для подростков, которые уже читают от 180 слов в минуту и хотят
-            выйти на новый уровень — работать с большими объёмами текста быстро и осознанно.</p>
-            <p>Отрабатываем техники сканирования текста, удержания внимания на длинных
-            материалах и структурирования прочитанного — полезно для учёбы и экзаменов.</p>
-          </template>
-        </article>
-
-        <article class="program-card">
-          <div class="program-icon">🇬🇧</div>
-          <h3>Английский язык с нуля</h3>
-          <p class="program-age">от 7 лет и выше</p>
-          <ul class="program-meta">
-            <li>⏱ 1 час · 3 раза в неделю</li>
-            <li>💳 12 300 сом / 12 занятий</li>
-          </ul>
-          <button type="button" class="btn btn-ghost btn-sm program-more">Подробнее</button>
-          <template class="program-desc">
-            <p>Курс английского языка с нуля для детей от 7 лет: разговорная практика,
-            базовая грамматика и лексика в увлекательном формате, без зубрёжки.</p>
-            <p>3 занятия в неделю дают более быстрый прогресс, чем стандартный график —
-            ребёнок быстрее привыкает говорить и мыслить на языке.</p>
-          </template>
-        </article>
-
-        <article class="program-card">
-          <div class="program-icon">🇰🇬</div>
-          <h3>Кыргызский язык с нуля</h3>
-          <p class="program-age">от 7 лет и выше</p>
-          <ul class="program-meta">
-            <li>⏱ 1 час · 3 раза в неделю</li>
-            <li>💳 12 300 сом / 12 занятий</li>
-          </ul>
-          <button type="button" class="btn btn-ghost btn-sm program-more">Подробнее</button>
-          <template class="program-desc">
-            <p>Курс кыргызского языка с нуля: живое общение, базовая грамматика и лексика —
-            всё в понятной и доброжелательной атмосфере для ребёнка.</p>
-            <p>3 занятия в неделю помогают быстрее заговорить и уверенно применять язык
-            в повседневных ситуациях.</p>
-          </template>
-        </article>
-
-      </div>
-
-      <div class="programs-cta">
-        <p>Не уверены, какое направление подойдёт вашему ребёнку?</p>
-        <a href="https://wa.me/996557784477" target="_blank" rel="noopener" class="btn btn-primary">
-          Получить бесплатную консультацию
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a href="#top" class="logo logo-footer">
+          <img src="images/logo.png" alt="Логотип IQ" class="logo-img" />
+          <span class="logo-text">Образовательный центр IQ</span>
         </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== ОТЗЫВЫ ===================== -->
-  <section class="section" id="reviews">
-    <div class="container">
-      <span class="section-eyebrow">Отзывы</span>
-      <h2 class="section-title">Нам доверяют родители Бишкека</h2>
-
-      <div class="reviews-track" id="reviewsTrack">
-        <article class="review-card">
-          <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
-          <p class="review-text">
-            Сын занимается уже полгода в филиале на Абая — стал гораздо быстрее
-            читать и лучше запоминать материал в школе. Педагоги очень
-            внимательные, всегда на связи.
-          </p>
-          <div class="review-author">
-            <span class="review-avatar">А</span>
-            <div>
-              <strong>Айгуль</strong>
-              <span>мама ученика, программа «Быстрочтение»</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="review-card">
-          <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
-          <p class="review-text">
-            Готовили дочку к школе в IQ KG — занятия проходят в игровой форме,
-            ребёнок ходит с удовольствием. Заметен прогресс в концентрации
-            внимания и памяти.
-          </p>
-          <div class="review-author">
-            <span class="review-avatar">Н</span>
-            <div>
-              <strong>Нурлан</strong>
-              <span>папа ученицы, программа «Подготовка к школе»</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="review-card">
-          <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
-          <p class="review-text">
-            Маленькие группы — это большой плюс: педагог и тьютор успевают
-            уделить внимание каждому ребёнку. Удобное расположение филиала
-            в 12 мкр.
-          </p>
-          <div class="review-author">
-            <span class="review-avatar">Э</span>
-            <div>
-              <strong>Эльмира</strong>
-              <span>мама ученика, программа «Раннее развитие»</span>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="carousel-dots" id="reviewsDots"></div>
-    </div>
-  </section>
-
-  <!-- ===================== ФИЛИАЛЫ ===================== -->
-  <section class="section section-alt" id="branches">
-    <div class="container">
-      <span class="section-eyebrow">Филиалы</span>
-      <h2 class="section-title">4 филиала в удобных районах Бишкека</h2>
-
-      <div class="branches-grid">
-        <a class="branch-card" href="https://go.2gis.com/qb9wy" target="_blank" rel="noopener">
-          <div class="branch-icon">📍</div>
-          <div>
-            <strong>Бизнес центр «Максимум»</strong>
-            <p>р-он Филармонии</p>
-          </div>
-        </a>
-
-        <a class="branch-card" href="https://go.2gis.com/P6yp2" target="_blank" rel="noopener">
-          <div class="branch-icon">📍</div>
-          <div>
-            <strong>Абая 35а</strong>
-            <p>пересечение Горького / Абая</p>
-          </div>
-        </a>
-
-        <a class="branch-card" href="https://go.2gis.com/K0Z29" target="_blank" rel="noopener">
-          <div class="branch-icon">📍</div>
-          <div>
-            <strong>12-й мкр., ТЦ «ДК»</strong>
-            <p>Бишкек</p>
-          </div>
-        </a>
-
-        <a class="branch-card" href="https://go.2gis.com/4VtIX" target="_blank" rel="noopener">
-          <div class="branch-icon">📍</div>
-          <div>
-            <strong>Джал 29, дом 14/1</strong>
-            <p>Бишкек</p>
-          </div>
-        </a>
-      </div>
-
-      <p class="branches-note">Уточнить точный адрес и записаться в ближайший филиал можно в WhatsApp — подскажем свободное время.</p>
-    </div>
-  </section>
-
-  <!-- ===================== КОНТАКТЫ ===================== -->
-  <section class="section contact-section" id="contact">
-    <div class="container contact-inner">
-      <div>
-        <span class="section-eyebrow section-eyebrow-light">Контакты</span>
-        <h2 class="section-title section-title-light">Запишите ребёнка на пробное занятие</h2>
-        <p class="section-lead section-lead-light">
-          Напишите нам в WhatsApp — ответим на вопросы, поможем выбрать
-          программу и подскажем ближайший филиал.
+        <nav class="footer-nav">
+          <a href="#about">О нас</a>
+          <a href="#programs">Направления</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#branches">Филиалы</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+        <p class="footer-copy">
+          © <span id="year"></span> IQ KG. Образовательный центр в Бишкеке.
         </p>
-        <a href="https://wa.me/996557784477" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
-          <svg viewBox="0 0 24 24" class="icon-wa" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.4.9.9-3.3-.2-.4C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg>
-          wa.me/996557784477
+      </div>
+    </footer>
+
+    <!-- ===================== FLOATING WHATSAPP BUTTON ===================== -->
+    <a
+      href="https://wa.me/996557784477"
+      target="_blank"
+      rel="noopener"
+      class="whatsapp-float"
+      aria-label="Написать в WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" class="icon-wa" aria-hidden="true">
+        <path
+          d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4z"
+        />
+        <path
+          d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.4.9.9-3.3-.2-.4C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"
+        />
+      </svg>
+    </a>
+
+    <!-- ===================== PROGRAM DETAILS MODAL ===================== -->
+    <div class="modal-overlay" id="programModalOverlay">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="programModalTitle"
+      >
+        <button
+          type="button"
+          class="modal-close"
+          id="programModalClose"
+          aria-label="Закрыть"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M6 6l12 12M18 6L6 18"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <div class="modal-icon" id="programModalIcon"></div>
+        <h3 class="modal-title" id="programModalTitle"></h3>
+        <p class="modal-meta" id="programModalMeta"></p>
+        <div class="modal-body" id="programModalBody"></div>
+        <a
+          href="https://wa.me/996557784477"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-whatsapp btn-lg modal-cta"
+          id="programModalCta"
+        >
+          <svg viewBox="0 0 24 24" class="icon-wa" aria-hidden="true">
+            <path
+              d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4z"
+            />
+            <path
+              d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.4.9.9-3.3-.2-.4C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"
+            />
+          </svg>
+          Получить консультацию
         </a>
       </div>
-
-      <ul class="contact-info">
-        <li>
-          <span class="contact-icon">🕘</span>
-          <div><strong>График работы</strong><p>Каждый день с 09:00 до 19:00</p></div>
-        </li>
-        <li>
-          <span class="contact-icon">🏢</span>
-          <div><strong>Филиалы</strong><p>4 филиала по всему Бишкеку</p></div>
-        </li>
-        <li>
-          <span class="contact-icon">👨‍👩‍👧</span>
-          <div><strong>Группы</strong><p>До 3–4 детей, педагог + тьютор</p></div>
-        </li>
-      </ul>
     </div>
-  </section>
 
-</main>
-
-<!-- ===================== FOOTER ===================== -->
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <a href="#top" class="logo logo-footer">
-      <img src="images/logo.png" alt="Логотип IQ" class="logo-img">
-      <span class="logo-text">Образовательный центр IQ</span>
-    </a>
-    <nav class="footer-nav">
-      <a href="#about">О нас</a>
-      <a href="#programs">Направления</a>
-      <a href="#reviews">Отзывы</a>
-      <a href="#branches">Филиалы</a>
-      <a href="#contact">Контакты</a>
-    </nav>
-    <p class="footer-copy">© <span id="year"></span> IQ KG. Образовательный центр в Бишкеке.</p>
-  </div>
-</footer>
-
-<!-- ===================== FLOATING WHATSAPP BUTTON ===================== -->
-<a href="https://wa.me/996557784477" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Написать в WhatsApp">
-  <svg viewBox="0 0 24 24" class="icon-wa" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.4.9.9-3.3-.2-.4C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg>
-</a>
-
-<!-- ===================== PROGRAM DETAILS MODAL ===================== -->
-<div class="modal-overlay" id="programModalOverlay">
-  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="programModalTitle">
-    <button type="button" class="modal-close" id="programModalClose" aria-label="Закрыть">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-    </button>
-    <div class="modal-icon" id="programModalIcon"></div>
-    <h3 class="modal-title" id="programModalTitle"></h3>
-    <p class="modal-meta" id="programModalMeta"></p>
-    <div class="modal-body" id="programModalBody"></div>
-    <a href="https://wa.me/996557784477" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg modal-cta" id="programModalCta">
-      <svg viewBox="0 0 24 24" class="icon-wa" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.4.9.9-3.3-.2-.4C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg>
-      Получить консультацию
-    </a>
-  </div>
-</div>
-
-<script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
